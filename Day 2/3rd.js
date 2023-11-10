@@ -1,7 +1,7 @@
 // Object to represent a book
 let book = {
-  title: "The Great Gatsby",
-  author: "F. Scott Fitzgerald",
+  title: "How to make Money",
+  author: "Richard Hardly",
   pages: 180
 };
 
@@ -28,7 +28,7 @@ function listBooks() {
 }
 
 // Add books to the library
-addBook("The Hobbit", "J.R.R. Tolkien", 300);
+addBook("New book", "Sachidananda mallick", 300);
 addBook("To Kill a Mockingbird", "Harper Lee", 281);
 
 // List all books in the library
