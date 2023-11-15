@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filter JSON Data</title>
+</head>
+<body>
+
+<script>
+  const users = [
+    { id: 1, name: 'John', age: 25 },
+    { id: 2, name: 'Jane', age: 30 },
+    { id: 3, name: 'Doe', age: 22 }
+  ];
+
+  // Filtering users older than 25
+  const filteredUsers = users.filter(user => user.age > 25);
+  console.log('Filtered Users:', filteredUsers);
+</script>
+
+</body>
+</html>

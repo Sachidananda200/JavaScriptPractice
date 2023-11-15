@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch JSON Data</title>
+</head>
+<body>
+
+<script>
+  // Fetching JSON data from a sample API
+  fetch('https://jsonplaceholder.typicode.com/todos/1')
+    .then(response => response.json())
+    .then(data => console.log('Fetched Data:', data))
+    .catch(error => console.error('Error:', error));
+</script>
+
+</body>
+</html>

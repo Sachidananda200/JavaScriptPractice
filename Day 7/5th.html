@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic HTML from JSON</title>
+</head>
+<body>
+
+<div id="dynamicContent"></div>
+
+<script>
+  // Sample JSON data representing a list of items
+  const items = [
+    { id: 1, name: 'Item 1' },
+    { id: 2, name: 'Item 2' },
+    { id: 3, name: 'Item 3' }
+  ];
+
+  // Creating HTML dynamically based on JSON data
+  const dynamicContent = document.getElementById('dynamicContent');
+  items.forEach(item => {
+    const itemElement = document.createElement('p');
+    itemElement.textContent = item.name;
+    dynamicContent.appendChild(itemElement);
+  });
+</script>
+
+</body>
+</html>
