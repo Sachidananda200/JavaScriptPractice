@@ -115,3 +115,22 @@
 //   printAll();
   
   
+
+function printAll() {
+    const a = [1, 2, 3, 4, 5];
+  
+    function printValues() {
+      for (let i = 0; i < a.length; i++) {
+        console.log(`${a[i]}`);
+      }
+    }
+  
+    return printValues;
+  }
+  
+
+  const exm = printAll();
+  
+
+  exm();
+  
