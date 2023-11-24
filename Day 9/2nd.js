@@ -116,21 +116,35 @@
   
   
 
-function printAll() {
-    const a = [1, 2, 3, 4, 5];
+// function printAll() {
+//     const a = [1, 2, 3, 4, 5];
   
-    function printValues() {
-      for (let i = 0; i < a.length; i++) {
-        console.log(`${a[i]}`);
-      }
-    }
+//     function printValues() {
+//       for (let i = 0; i < a.length; i++) {
+//         console.log(`${a[i]}`);
+//       }
+//     }
   
-    return printValues;
-  }
-  
-
-  const exm = printAll();
+//     return printValues;
+//   }
   
 
-  exm();
+//   const exm = printAll();
   
+
+//   exm();
+// console.log(x);
+// var x = 10 ;
+
+
+
+// const person = {
+//     name: "John",
+//     age: 30,
+//     city: "New York"
+//   };
+  
+//   let myString = JSON.stringify(person);
+
+//   console.log(myString);
+
