@@ -183,13 +183,23 @@
 
 
 
-async function first(){
-    await setTimeout(()=>{
-        console.log("first");
-    },2000)
-    await setTimeout(()=>{
-        console.log("second");
-    },2000)
-}
+// new Promise(function(res,rej){
+//         setTimeout(function(){
+//              console.log("connected");
+//              res()
+//          },2000)
+//          }).then(function(){
+//              console.log("promise one is resolved");
+//          })
 
-first()
+
+//  new Promise((res,rej)=>{
+//     setTimeout(()=>{
+//         res('Hello World!');
+//     },5000)
+// })
+// .then((response)=>{
+//     console.log(response);
+//     console.log("promise resolve");
+    
+// })
