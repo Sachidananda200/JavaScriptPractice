@@ -203,3 +203,31 @@
 //     console.log("promise resolve");
     
 // })
+
+
+
+
+
+// function hello(){
+//     let x = 10;
+//     var c = 10;
+//     console.log(x);
+//     console.log(c);
+// }
+// // console.log(x);
+// console.log(c);
+// hello()
+
+
+// let obj1 = {
+//     name:"Hello",
+//     print:function(gender,place){
+//         return this.name +" "+ gender+" "+ place
+//     }
+// }
+
+// let obj2 = {
+//     name:"hey",
+// }
+//   console.log(obj1.print.apply(obj1,["male","jsp"]));
+
