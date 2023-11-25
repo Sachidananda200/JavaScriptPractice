@@ -231,3 +231,106 @@
 // }
 //   console.log(obj1.print.apply(obj1,["male","jsp"]));
 
+
+
+setInterval(()=>{
+    console.log("Hello World!");
+},5000)
+
+// const arr = [10,20,30]
+// let max = arr[0];
+// arr.forEach((num)=>{
+   
+//     if(num>max){
+//         max = num;
+//     }
+
+// })
+// console.log(max);
+
+// let str = "hihh";
+
+// function isPalindrome(str) {
+//     return str === str.split("").reverse().join("");
+// }
+
+// console.log(isPalindrome(str));
+
+
+// const arr = [10,20,30,40]
+// const numb =arr.map((nums)=>{
+//     return nums>20
+// })
+
+// console.log(numb);
+
+
+// let text = '{ "employees" : [' +
+// '{ "firstName":"John" , "lastName":"Doe" },' +
+// '{ "firstName":"Anna" , "lastName":"Smith" },' +
+// '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+// const obj = JSON.parse(text);
+
+
+// console.log(obj);
+
+
+// function calculte(lenght) {
+//     return function claculate1(bredth){
+//         return function calculate2(height){
+//             return lenght*bredth*height;
+//         }
+//     }
+    
+// }
+
+// console.log(calculte(3)(4)(5));
+
+// let b = 10
+// function Firstr() {
+//     let a = 10;
+//     if(b == 10){
+//         {
+//             console.log(a);
+//         }
+//     }
+// }
+
+// Firstr()
+
+// const user = {
+//     dog: {
+//         name: "Alex"
+//     }
+//     };
+    
+//     console.log(user.cat?.name); 
+//     console.log(user.dog?.name); 
+//     //console.log(user.cat.name);
+    
+
+// const sachi = {
+//   name: "Sachi",
+//   age: 2,
+//   breed: "Golden Retriever",
+//   color: "brown",
+
+// };
+
+// console.log(sachi?.name);
+// console.log(sachi?.nama);
+
+
+// let str = "jai shree ram"
+
+// let a = 10;
+
+// let resut = 
+// console.log(resut);
+
+
+// localStorage.setItem('username', 'sachidananda');
+
+// var storedUsername = localStorage.getItem('username');
+// console.log(storedUsername); 
